@@ -1,0 +1,142 @@
+*{
+
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+
+    margin: 0;
+
+}
+
+
+.box-form{
+
+    margin: 150px auto;
+
+    background-color: whitesmoke;
+
+    box-shadow: black 0px 0px 2px;
+
+    text-align: center;
+
+    display: block;
+
+    width: 25%;
+
+    height: 50vh;
+
+}
+
+
+.box-form h3{
+
+    position: relative;
+
+    top: -40px;
+
+    font-size: 50px;
+
+    color: orange;
+
+}
+
+
+.reg{
+
+    margin: 90px auto;
+
+    height: 70vh;
+
+}
+
+
+.close a {
+
+    position: relative;
+
+    left: 140px;
+
+    top: 10px;
+
+    color: #000;
+
+    font-size: 40px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+}
+
+/* width input fields */
+
+input[type=text], input[type=password], input[type=email] {
+
+    position: relative;
+
+    top: -70px;
+
+  width: 70%;
+
+  padding: 15px;
+
+  font-size: 16px;
+
+  margin: 10px;
+
+  display: inline-block;
+
+  border: none;
+
+  background: #f1f1f1;
+
+}
+
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+
+  background-color: #ddd;
+
+  outline: none;
+
+}
+
+
+.btn{
+
+    position: relative;
+
+    border: none;
+
+    display: inline;
+
+    top: -65px;
+
+    padding: 14px 35px;
+
+    background-color: orange;
+
+    margin: 10px;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    color: white;
+
+    text-transform: uppercase;
+
+}
+
+
+.btn a{
+
+    color: white;
+
+}
