@@ -1,0 +1,74 @@
+body{
+
+    margin: 0;
+
+}
+
+
+.nav {
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+}
+
+
+.logo{
+
+    float: left;
+
+}
+
+
+.logo img{
+
+    margin: 10px 10px;
+
+    width: 80px;
+
+}
+
+
+li{
+
+    float: right;
+
+}
+
+ 
+
+.nav li a {
+
+    color: black;
+
+    display: block;
+
+    text-align: center;
+
+    padding: 17px 25px;
+
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.nav li a:hover{
+
+    color: rgb(10, 121, 0);
+
+    text-shadow: rgb(255, 231, 18) 0 0 20px;
+
+}
