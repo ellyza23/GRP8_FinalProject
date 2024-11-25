@@ -1,0 +1,140 @@
+.logo img {
+
+    width: 100px; 
+    height: auto; 
+
+}
+
+
+/* Style for the intro logo */
+
+.intro img {
+
+    max-width: 250px; 
+    width: 100%; 
+
+    height: auto; 
+   
+
+}
+
+
+/* Body Style */
+
+body {
+
+    background-image: url('image/bees_920355-35.avif');
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    color: white;
+
+    margin: 0; 
+    padding: 0;
+
+}
+
+
+/* Centering content */
+
+section {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    height: 100vh; 
+
+    color: black; 
+}
+
+
+/* Styling for <h1> */
+
+h1 {
+
+    font-size: 3rem;
+
+    color: black;
+
+}
+
+
+/* Styling for <p> */
+
+p {
+
+    font-size: 1.2rem;
+
+    color: black;
+
+    margin: 20px 0;
+
+}
+
+
+/* Styling for the button */
+
+button {
+
+    background-color: #f1c40f;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+    margin-top: 20px;
+
+}
+
+
+button a {
+
+    text-decoration: none;
+
+    color: black;
+
+    font-weight: bold;
+
+}
+
+
+button:hover {
+
+    background-color: #e1b20f;
+
+}
+
+
+footer {
+
+    background-color: rgb(245, 240, 196); 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    margin-top: 20px; 
+
+    width: 100%; 
+
+    font-family: Arial, sans-serif; 
+
+
+    text-align: center; 
+
+}
